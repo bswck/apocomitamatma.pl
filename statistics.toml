@@ -1,0 +1,7 @@
+channel_id = "UC_jo5X2WkG7BS1jflbxTBPg"
+
+[group_patterns]
+1 = "#(e8|egzamin(8|ósmo)klasisty)"
+2 = "#(podstawa|maturapodstawowa)(20\\d{2})?"
+4 = "#(rozszerzenie|maturarozszerzona)(20\\d{2})?"
+6 = "#(matura20\\d{2})"

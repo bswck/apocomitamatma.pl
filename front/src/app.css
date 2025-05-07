@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --default-font-family: "Figtree", sans-serif;
+    --color-red: #c50000;
+    --color-outline: rgba(255, 255, 255, 0.2);
+    --color-yellow: #ffbf01;
+    --color-blue: #0173f8;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: black;
+}

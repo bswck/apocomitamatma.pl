@@ -1,10 +1,8 @@
 <script>
 	import { browser } from '$app/environment';
+	import * as formulasMap from '$lib/images/decorations/formulas.js';
 
-	const formulas = Array.from(
-		{ length: 9 },
-		(_, i) => `/src/lib/images/decorations/formula${i + 1}.gif`
-	);
+	const formulas = Object.values(formulasMap);
 
 	const positions = [
 		{ x: 7, y: 12, scale: 3.2, opacity: 0.22 },

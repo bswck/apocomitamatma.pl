@@ -1,0 +1,9 @@
+export { default as formula1 } from './formula1.gif';
+export { default as formula2 } from './formula2.gif';
+export { default as formula3 } from './formula3.gif';
+export { default as formula4 } from './formula4.gif';
+export { default as formula5 } from './formula5.gif';
+export { default as formula6 } from './formula6.gif';
+export { default as formula7 } from './formula7.gif';
+export { default as formula8 } from './formula8.gif';
+export { default as formula9 } from './formula9.gif';

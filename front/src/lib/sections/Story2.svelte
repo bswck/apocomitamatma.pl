@@ -21,7 +21,7 @@
 	}
 </script>
 
-<Section id="story1" class="backdrop-contrast-100">
+<Section id="story2" class="backdrop-brightness-20">
 	<VerticalStripes />
 	<Container class="py-10">
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">

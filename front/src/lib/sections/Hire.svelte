@@ -6,7 +6,7 @@
 	import CTAButton from '$lib/components/CTAButton.svelte';
 </script>
 
-<Section id="hire" class="backdrop-contrast-125">
+<Section id="hire-details" class="grow-0 backdrop-blur-3xl">
 	<FormulaBubbles />
 	<Container class="py-10 xl:pb-0 xl:pt-10">
 		<Sprite class="max-h-160 block h-full min-h-80 object-cover" which="figures" />

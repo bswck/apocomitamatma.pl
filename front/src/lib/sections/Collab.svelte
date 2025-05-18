@@ -5,7 +5,7 @@
 	import CTAButton from '$lib/components/CTAButton.svelte';
 </script>
 
-<Section id="collab" class="backdrop-brightness-200">
+<Section id="collab" class="backdrop-brightness-50">
 	<!-- <VerticalStripes id="1" size="5rem" blur="2px" /> -->
 	<Container class="pt-10">
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">

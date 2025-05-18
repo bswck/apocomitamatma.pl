@@ -4,7 +4,7 @@
 	import Sprite from '$lib/components/Sprite.svelte';
 </script>
 
-<div class="relative w-full grow">
+<div class="backdrop-brightness-70 relative w-full grow-0">
 	<div
 		class="pt-15 flex h-full w-full flex-col items-center justify-center xl:flex-row dark:text-white"
 	>

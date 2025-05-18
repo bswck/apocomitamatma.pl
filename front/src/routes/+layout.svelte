@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="brightness-30 fixed -z-10 h-svh w-full bg-[url('$lib/images/background.png')] bg-fixed bg-center bg-repeat blur-[7px]"
+	class="fixed -z-10 h-svh w-full bg-[url('$lib/images/background.png')] bg-fixed bg-center bg-repeat blur-[5px]"
 	style="background-size: 150rem"
 ></div>
 

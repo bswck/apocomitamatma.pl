@@ -5,8 +5,8 @@
 <section
 	{id}
 	class="
-    border-t-1 border-t-(--color-outline)
-    relative w-full grow items-center
+    border-t-1 border-t-(--color-outline) relative
+    flex w-full grow flex-col items-center
     justify-center {classes}
     "
 >

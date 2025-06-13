@@ -39,7 +39,7 @@
 			<div class="grid w-full grid-cols-1 sm:grid-cols-3">
 				{#each groups as { label, key, image }}
 					<div
-						class="border-(--color-outline) flex flex-col items-center gap-4 rounded-2xl p-6 text-center backdrop-blur-sm"
+						class="border-(--color-outline) flex flex-col items-center gap-4 rounded-2xl p-6 text-center"
 					>
 						<img src={image} alt={label} class="h-32 w-auto" />
 						<h3 class="text-xl font-bold">{label}</h3>

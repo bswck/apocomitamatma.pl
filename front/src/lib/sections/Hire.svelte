@@ -24,6 +24,10 @@
 </script>
 
 <Section id="hire" class="backdrop-brightness-30 backdrop-hue-rotate-180">
+	<div
+		class="brightness-30 absolute -z-10 h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[2.5px]"
+		style="background-size: 100rem"
+	></div>
 	<div class="flex flex-col gap-8 py-10">
 		<article class="w-full flex-col justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">
@@ -50,10 +54,9 @@
 </Section>
 
 <Section id="hire-cta" border={false} class="backdrop-brightness-30 backdrop-hue-rotate-180">
-	<VerticalStripes />
 	<div
-		class="brightness-30 absolute -z-10 h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[1px]"
-		style="background-size: 50rem"
+		class="brightness-30 absolute -z-10 h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[2.5px]"
+		style="background-size: 100rem"
 	></div>
 	<Container class="min-h-60 gap-8 py-10 xl:pb-0 xl:pt-10">
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">

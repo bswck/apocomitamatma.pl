@@ -53,7 +53,7 @@
 <Section id="hire-cta" border={false} class="backdrop-brightness-30 backdrop-hue-rotate-180">
 	<VerticalStripes />
 	<div
-		class="brightness-30 absolute -z-10 h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[5px]"
+		class="brightness-30 absolute -z-10 h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[1px]"
 		style="background-size: 50rem"
 	></div>
 	<Container class="min-h-60 gap-8 py-10 xl:pb-0 xl:pt-10">

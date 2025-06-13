@@ -59,7 +59,7 @@
 	<Container class="min-h-60 gap-8 py-10 xl:pb-0 xl:pt-10">
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">
 			<CTAButton
-				text="Umów pierwsze zajęcia"
+				text="Umów zajęcia"
 				color="red"
 				email="kontakt@apocomitamatma.pl"
 				phoneNumber="+48 665 165 432"

@@ -2,14 +2,12 @@
 	import hire from '$lib/images/hire.png';
 	import collab from '$lib/images/collab.png';
 	import Sprite from '$lib/components/Sprite.svelte';
-	import Link from '$lib/components/Link.svelte';
 	import Social from '$lib/components/Social.svelte';
-	import brand from '$lib/images/brand.gif';
 </script>
 
 <div class="font-display backdrop-brightness-70 relative flex w-full grow-0">
 	<video
-		class="absolute -z-10 h-full w-full object-cover blur-sm"
+		class="brightness-80 absolute -z-10 h-full w-full object-cover blur-sm"
 		muted
 		autoplay
 		loop

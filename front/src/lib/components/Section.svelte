@@ -1,11 +1,12 @@
 <script>
-	let { children, id, class: classes = '' } = $props();
+	let { children, id, border = true, class: classes = '' } = $props();
+	const borderTop = border ? 'border-t-1 border-t-(--color-outline)' : '';
 </script>
 
 <section
 	{id}
 	class="
-    border-t-1 border-t-(--color-outline) relative
+    {borderTop} relative
     flex w-full grow flex-col items-center
     justify-center {classes}
     "

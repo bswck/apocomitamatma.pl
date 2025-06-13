@@ -1,49 +1,53 @@
 <script>
-	import { browser } from '$app/environment';
 	import * as formulasMap from '$lib/images/decorations/formulas.js';
 
 	const formulas = Object.values(formulasMap);
 
 	const positions = [
-		{ x: 7, y: 12, scale: 1.2, opacity: 0.22 },
-		{ x: 48, y: 9, scale: 1.9, opacity: 0.28 },
-		{ x: 93, y: 14, scale: 1.5, opacity: 0.32 },
-		{ x: 10, y: 47, scale: 1.1, opacity: 0.18 },
-		{ x: 50, y: 52, scale: 1.7, opacity: 0.35 },
-		{ x: 90, y: 48, scale: 1.8, opacity: 0.25 },
-		{ x: 12, y: 87, scale: 1.0, opacity: 0.19 },
-		{ x: 53, y: 91, scale: 1.3, opacity: 0.3 },
-		{ x: 94, y: 86, scale: 1.6, opacity: 0.22 }
+		{ x: 7, y: 12, opacity: 0.22 },
+		{ x: 48, y: 9, opacity: 0.28 },
+		{ x: 93, y: 14, opacity: 0.32 },
+		{ x: 10, y: 47, opacity: 0.18 },
+		{ x: 50, y: 52, opacity: 0.35 },
+		{ x: 90, y: 48, opacity: 0.25 },
+		{ x: 12, y: 87, opacity: 0.19 },
+		{ x: 53, y: 91, opacity: 0.3 },
+		{ x: 94, y: 86, opacity: 0.22 }
 	];
-
-	let scrollY = 0;
-	let parallaxBase = 0;
-
-	if (browser) {
-		scrollY = window.scrollY;
-		parallaxBase = scrollY;
-
-		window.addEventListener('scroll', () => {
-			scrollY = window.scrollY;
-		});
-	}
 </script>
 
-<div class="pointer-events-none absolute left-0 top-0 -z-10 h-full w-full overflow-hidden">
+<div class="parallax-wrapper">
 	{#each formulas as src, i}
 		<img
 			{src}
 			alt=""
 			style="
-				position: absolute;
-				left: {positions[i].x}%;
-				top: calc({positions[i].y}% + {(scrollY - parallaxBase) * 0.2}px);
-				transform: scale({positions[i].scale});
-				width: 4rem;
-				height: auto;
-				filter: opacity({positions[i].opacity});
-			"
-			class="transition-transform duration-[0ms] will-change-transform"
+        scale: 1.2;
+        left: {positions[i].x}%;
+        top: {positions[i].y}%;
+        transform: translateZ({-i * 10}px);
+        opacity: {positions[i].opacity};
+    "
+			class="formula"
 		/>
 	{/each}
 </div>
+
+<style>
+	.parallax-wrapper {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		overflow: hidden;
+		z-index: -10;
+		transform-style: preserve-3d;
+		perspective: 1000px;
+	}
+
+	.formula {
+		position: absolute;
+		width: 4rem;
+		height: auto;
+		will-change: transform;
+	}
+</style>

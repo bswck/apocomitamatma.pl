@@ -1,5 +1,5 @@
 <script>
-	import hire from '$lib/images/hire.gif';
+	import hire from '$lib/images/hire.png';
 	import collab from '$lib/images/collab.png';
 	import Sprite from '$lib/components/Sprite.svelte';
 </script>
@@ -15,9 +15,9 @@
 				<span class="bg-gradient from-(--color-yellow) bg-gradient-to-r to-white bg-clip-text"
 					>Kolorowa</span
 				>
-				matematyka<br />z poczuciem
+				matematyka<br />z
 				<span class="bg-gradient to-(--color-blue) bg-gradient-to-r from-white bg-clip-text"
-					>humoru</span
+					>humorem</span
 				>
 			</h1>
 

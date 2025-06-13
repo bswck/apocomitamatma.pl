@@ -24,7 +24,6 @@
 </script>
 
 <Section id="hire" class="backdrop-brightness-30 backdrop-hue-rotate-180">
-	<VerticalStripes />
 	<div class="flex flex-col gap-8 py-10">
 		<article class="w-full flex-col justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">

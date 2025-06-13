@@ -7,10 +7,10 @@
 	let { children } = $props();
 </script>
 
-<div
-	class="fixed -z-10 h-svh w-full bg-[url('$lib/images/background.png')] bg-fixed bg-center bg-repeat blur-[5px]"
+<!-- <div
+	class="translate-z-0 absolute -z-10 h-svh w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[5px] will-change-transform"
 	style="background-size: 50rem"
-></div>
+></div> -->
 
 <div class="flex h-full w-full flex-col items-center dark:text-white">
 	{@render children()}

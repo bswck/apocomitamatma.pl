@@ -1,28 +1,20 @@
 <script>
 	import Container from '$lib/components/Container.svelte';
-	import FormulaBubbles from '$lib/components/FormulaBubbles.svelte';
 	import Section from '$lib/components/Section.svelte';
-	import Sprite from '$lib/components/Sprite.svelte';
-	import CTAButton from '$lib/components/CTAButton.svelte';
+	import VerticalStripes from '$lib/components/VerticalStripes.svelte';
 </script>
 
-<Section id="hire-details" class="grow-0 backdrop-blur-3xl">
-	<FormulaBubbles />
-	<Container class="py-10 xl:pb-0 xl:pt-10">
-		<Sprite class="max-h-160 block h-full min-h-80 object-cover" which="figures" />
-		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">
+<Section id="hire" class="backdrop-brightness-20 backdrop-hue-rotate-180">
+	<VerticalStripes />
+	<Container class="py-10">
+		<article class="w-full flex-col justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">
-				Za rączkę <span class="text-(--color-yellow)">do celu</span>
+				<span class="text-(--color-blue)">Nowy standard</span> w nauce matmy
 			</h2>
-			<p class="text-balance">
-				Szukasz kogoś, kto pokaże Ci, że matma ma sens? U mnie nie ma głupich pytań. Tłumaczę z
-				luzem, ale bez ściemy.
+			<p>
+				Zaczęło się od kilku filmów w pandemii, dziś to jedno z najważniejszych miejsc w polskim
+				YouTube edukacyjnym. Matematyka – bez stresu, bez nudy, ale zawsze na serio.
 			</p>
-			<p class="text-balance">
-				Przygotuję Cię do matury (podstawa i rozszerzenie), egzaminu ósmoklasisty lub poprawy ocen.
-				Wszystko z jasnym planem i pełnym wsparciem.
-			</p>
-			<CTAButton text="Zgłoś się na korki" color="red" email="kontakt@apocomitamatma.pl" />
 		</article>
 	</Container>
 </Section>

@@ -9,7 +9,7 @@
 
 <div
 	class="fixed -z-10 h-svh w-full bg-[url('$lib/images/background.png')] bg-fixed bg-center bg-repeat blur-[5px]"
-	style="background-size: 150rem"
+	style="background-size: 50rem"
 ></div>
 
 <div class="flex h-full w-full flex-col items-center dark:text-white">

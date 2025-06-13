@@ -23,17 +23,12 @@
 
 <Section id="story2" class="backdrop-brightness-20">
 	<VerticalStripes />
-	<Container class="py-10">
+	<Container class="gap-8 py-10">
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">
 				<span class="text-(--color-red)">Setki filmów,</span>
 				<span class="bg-(--color-red)">tysiące</span> sukcesów
 			</h2>
-			<p>
-				Ogarniamy razem podstawówkę, maturę i matmę rozszerzoną. Z humorem, konkretem i <b
-					>w Twoim tempie.</b
-				>
-			</p>
 
 			<div class="grid w-full grid-cols-1 sm:grid-cols-3">
 				{#each groups as { label, key, image }}

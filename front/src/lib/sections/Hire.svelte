@@ -4,9 +4,9 @@
 	import VerticalStripes from '$lib/components/VerticalStripes.svelte';
 </script>
 
-<Section id="hire" class="backdrop-brightness-20 backdrop-hue-rotate-180">
+<Section id="hire" class="backdrop-brightness-30 backdrop-hue-rotate-180">
 	<VerticalStripes />
-	<Container class="py-10">
+	<Container class="gap-8 py-10">
 		<article class="w-full flex-col justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">
 				<span class="text-(--color-blue)">Nowy standard</span> w nauce matmy

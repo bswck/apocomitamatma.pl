@@ -1,8 +1,8 @@
 <script>
 	import Icon from '@iconify/svelte';
 
-	/** @type {{ text: string, color: 'red' | 'blue', email: string }} */
-	let { text, color, email } = $props();
+	/** @type {{ text: string, color: 'red' | 'blue', email: string, phoneNumber?: string }} */
+	let { text, color, email, phoneNumber } = $props();
 
 	const colorClass = color === 'red' ? 'bg-(--color-red)' : 'bg-(--color-blue)';
 </script>
@@ -17,4 +17,9 @@
 	</a>
 
 	<a href={`mailto:${email}`}><p class="text-sm text-white/60">{email}</p></a>
+	{#if phoneNumber}
+		<a href={`tel:${phoneNumber}`} class="text-sm text-white/60">
+			{phoneNumber}
+		</a>
+	{/if}
 </div>

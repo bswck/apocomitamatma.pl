@@ -6,23 +6,19 @@
 	import CTAButton from '$lib/components/CTAButton.svelte';
 </script>
 
-<Section id="hire-details" class="grow-0 backdrop-blur-md">
-	<FormulaBubbles />
-	<Container class="py-10 xl:pb-0 xl:pt-10">
-		<Sprite class="max-h-160 block h-full min-h-80 object-cover" which="figures" />
+<Section id="hire-details" class="grow-0 backdrop-blur-[3.5px]">
+	<Container class="gap-8 py-10 xl:pb-0 xl:pt-10">
+		<Sprite class="max-h-120 block h-full	min-h-60 object-cover" which="figures" />
 		<article class="flex w-full flex-col items-center justify-center gap-8 text-center">
 			<h2 class="text-4xl font-bold">
 				Za rączkę <span class="text-(--color-yellow)">do celu</span>
 			</h2>
-			<p class="text-balance">
-				Szukasz kogoś, kto pokaże Ci, że matma ma sens? U mnie nie ma głupich pytań. Tłumaczę z
-				luzem, ale bez ściemy.
-			</p>
-			<p class="text-balance">
-				Przygotuję Cię do matury (podstawa i rozszerzenie), egzaminu ósmoklasisty lub poprawy ocen.
-				Wszystko z jasnym planem i pełnym wsparciem.
-			</p>
-			<CTAButton text="Zgłoś się na korki" color="red" email="kontakt@apocomitamatma.pl" />
+			<CTAButton
+				text="Zgłoś się na korki"
+				color="red"
+				email="kontakt@apocomitamatma.pl"
+				phoneNumber="+48 665 165 432"
+			/>
 		</article>
 	</Container>
 </Section>

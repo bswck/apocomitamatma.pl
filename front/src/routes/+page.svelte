@@ -8,8 +8,15 @@
 
 <div class="mx-auto flex h-min w-full grow flex-col items-center">
 	<Hero />
-	<Hire />
-	<HireDetails />
-	<Story2 />
+	<div class="relative w-full">
+		<div
+			class="absolute h-full w-full bg-[url('$lib/images/background.png')] bg-center bg-repeat blur-[1px] brightness-50"
+			style="background-size: 30rem"
+		></div>
+
+		<Hire />
+		<HireDetails />
+		<Story2 />
+	</div>
 	<Collab />
 </div>

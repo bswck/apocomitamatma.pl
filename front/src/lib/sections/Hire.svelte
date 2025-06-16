@@ -1,9 +1,6 @@
 <script>
-	import Container from '$lib/components/Container.svelte';
 	import Section from '$lib/components/Section.svelte';
-	import Sprite from '$lib/components/Sprite.svelte';
 	import CTAButton from '$lib/components/CTAButton.svelte';
-	import VerticalStripes from '$lib/components/VerticalStripes.svelte';
 
 	import E8 from '$lib/images/groups/static/E8.png';
 	import MP from '$lib/images/groups/static/MP.png';

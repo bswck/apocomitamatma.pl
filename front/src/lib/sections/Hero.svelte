@@ -21,23 +21,15 @@
 	<div
 		class="pt-15 min-h-170 flex h-full w-full flex-col items-center justify-center xl:flex-row dark:text-white"
 	>
-		<div class="flex flex-col gap-8 text-center">
+		<div class="flex flex-col gap-8 text-center items-center">
 			<h1
 				class="!print:text-black relative text-balance bg-white bg-clip-text text-5xl font-extrabold text-transparent"
 			>
-				<span class="bg-gradient from-(--color-yellow) bg-gradient-to-r to-white bg-clip-text"
-					>Kolorowa</span
-				>
-				matematyka<br />z
-				<span class="bg-gradient to-(--color-blue) bg-gradient-to-r from-white bg-clip-text"
-					>humorem</span
-				>
+				Kolorowa matematyka<br />z humorem
 			</h1>
-			<nav aria-roledescription="Links to socials" class="flex items-center justify-center gap-5">
-				<Social platform="youtube" class="text-2xl" />
-				<Social platform="discord" class="text-2xl" />
-				<Social platform="tiktok" class="text-2xl" />
-				<Social platform="facebook" class="text-2xl" />
+			<nav aria-roledescription="Links to socials" class="flex items-center justify-evenly w-1/2">
+				<Social platform="youtube" ><img class="w-16" src="/youtube.png" alt=""></Social>
+				<Social platform="discord" ><img class="w-16" src="/discord.png" alt=""></Social>
 			</nav>
 
 			<div class="flex w-full flex-col items-center justify-evenly gap-2 p-4 lg:flex-row lg:gap-0">

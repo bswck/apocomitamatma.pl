@@ -7,7 +7,7 @@
 
 <div class="font-display backdrop-brightness-70 relative flex w-full grow-0">
 	<video
-		class="brightness-80 absolute -z-10 h-full w-full object-cover blur-sm"
+		class="brightness-60 absolute -z-10 h-full w-full object-cover blur-sm"
 		muted
 		autoplay
 		loop

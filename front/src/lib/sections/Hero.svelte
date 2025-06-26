@@ -5,6 +5,7 @@
 	import Social from '$lib/components/Social.svelte';
 	import ytImg from '$lib/images/icons/yt.png';
 	import dcImg from '$lib/images/icons/dc.png';
+	import Link from '$lib/components/Link.svelte';
 </script>
 
 <div class="font-display backdrop-brightness-70 relative flex w-full grow-0">
@@ -34,23 +35,25 @@
 				<Social platform="discord"><img class="w-16" src={dcImg} alt="" /></Social>
 			</nav>
 
-			<div class="flex w-full flex-col items-center justify-evenly gap-2 p-4 lg:flex-row lg:gap-0">
-				<a href="#hire" class="text-2xl font-bold">
-					<div class="flex items-center gap-2 transition-all duration-300 hover:scale-125">
-						<img src={hire} alt="apocomitamatma.pl" class="h-[1.5em]" />
-						<span>Korepetycje</span>
-					</div>
-				</a>
-				<a href="#collab" class="text-2xl font-bold">
-					<div class="flex items-center gap-2 transition-all duration-300 hover:scale-125">
-						<img src={collab} alt="apocomitamatma.pl" class="h-[1.5em]" />
-						<span>Współpraca</span>
-					</div>
-				</a>
+			<div class="flex w-full flex-col items-center justify-evenly gap-4 p-4 lg:flex-row lg:gap-0">
+				<Link
+					url="#hire"
+					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-bold"
+				>
+					<img src={hire} alt="apocomitamatma.pl" class="h-[1.5em]" />
+					<span>Korepetycje</span>
+				</Link>
+				<Link
+					url="#collab"
+					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-bold"
+				>
+					<img src={collab} alt="apocomitamatma.pl" class="h-[1.5em]" />
+					<span>Współpraca</span>
+				</Link>
 			</div>
 		</div>
 
 		<!-- brand.gif -->
-		<Sprite class="max-h-160 static h-full object-cover" which="delta" />
+		<Sprite class="max-h-160 static h-full lg:object-cover" which="delta" />
 	</div>
 </div>

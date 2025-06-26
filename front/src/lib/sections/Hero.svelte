@@ -3,8 +3,8 @@
 	import collab from '$lib/images/collab.png';
 	import Sprite from '$lib/components/Sprite.svelte';
 	import Social from '$lib/components/Social.svelte';
-	import youtubeImg from '$lib/images/icons/youtube.png';
-	import discordImg from '$lib/images/icons/discord.png';
+	import ytImg from '$lib/images/icons/yt.png';
+	import dcImg from '$lib/images/icons/dc.png';
 </script>
 
 <div class="font-display backdrop-brightness-70 relative flex w-full grow-0">
@@ -30,8 +30,8 @@
 				Kolorowa matematyka<br />z humorem
 			</h1>
 			<nav aria-roledescription="Links to socials" class="flex w-1/2 items-center justify-evenly">
-				<Social platform="youtube"><img class="w-16" src={youtubeImg} alt="" /></Social>
-				<Social platform="discord"><img class="w-16" src={discordImg} alt="" /></Social>
+				<Social platform="youtube"><img class="w-16" src={ytImg} alt="" /></Social>
+				<Social platform="discord"><img class="w-16" src={dcImg} alt="" /></Social>
 			</nav>
 
 			<div class="flex w-full flex-col items-center justify-evenly gap-2 p-4 lg:flex-row lg:gap-0">

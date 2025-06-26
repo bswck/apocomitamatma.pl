@@ -23,15 +23,15 @@
 	<div
 		class="pt-15 min-h-170 flex h-full w-full flex-col items-center justify-center xl:flex-row dark:text-white"
 	>
-		<div class="flex flex-col gap-8 text-center items-center">
+		<div class="flex flex-col items-center gap-8 text-center">
 			<h1
 				class="!print:text-black relative text-balance bg-white bg-clip-text text-5xl font-extrabold text-transparent"
 			>
 				Kolorowa matematyka<br />z humorem
 			</h1>
-			<nav aria-roledescription="Links to socials" class="flex items-center justify-evenly w-1/2">
-				<Social platform="youtube" ><img class="w-16" src={youtubeImg} alt=""></Social>
-				<Social platform="discord" ><img class="w-16" src={discordImg} alt=""></Social>
+			<nav aria-roledescription="Links to socials" class="flex w-1/2 items-center justify-evenly">
+				<Social platform="youtube"><img class="w-16" src={youtubeImg} alt="" /></Social>
+				<Social platform="discord"><img class="w-16" src={discordImg} alt="" /></Social>
 			</nav>
 
 			<div class="flex w-full flex-col items-center justify-evenly gap-2 p-4 lg:flex-row lg:gap-0">

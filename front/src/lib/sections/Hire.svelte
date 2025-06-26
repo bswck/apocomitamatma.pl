@@ -14,6 +14,9 @@
 		{ label: 'Matura rozszerzona', key: 'MR', image: MR }
 	];
 
+	/**
+	 * @param {number} count
+	 */
 	function formatCount(count) {
 		const rounded = Math.round(count / 10) * 10;
 		return rounded.toString() + (count % 10 === 0 ? '' : '+');
@@ -41,7 +44,7 @@
 						<img src={image} alt={label} class="h-32 w-auto" />
 						<h3 class="text-xl font-bold">{label}</h3>
 						<p class="text-2xl font-extrabold">
-							<span class="bg-(--color-red)">{formatCount(stats.videoCount[key] ?? 0)}</span> filmów
+							<span class="bg-(--color-red)">{formatCount(stats.videoCount[key])}</span> filmów
 						</p>
 					</div>
 				{/each}

@@ -1,13 +1,13 @@
 <script>
 	import Icon from '@iconify/svelte';
 
-	/** @type {{ text: string, color: 'red' | 'blue', email: string, phoneNumber?: string }} */
-	let { text, color, email, phoneNumber } = $props();
+	/** @type {{ text: string, color: 'red' | 'blue', email: string, phoneNumber?: string, class?: string }} */
+	let { text, color, email, phoneNumber, class: classes = '' } = $props();
 
 	const colorClass = color === 'red' ? 'bg-(--color-red)' : 'bg-(--color-blue)';
 </script>
 
-<div class="flex flex-col items-center gap-3 text-center">
+<div class="flex flex-col items-center gap-3 text-center {classes}">
 	<a
 		href={`mailto:${email}`}
 		class={`inline-flex items-center gap-2 px-10 py-3 font-bold text-white shadow-lg transition-all hover:brightness-110 ${colorClass}`}

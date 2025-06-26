@@ -38,14 +38,14 @@
 			<div class="flex w-full flex-col items-center justify-evenly gap-4 p-4 lg:flex-row lg:gap-0">
 				<Link
 					url="#hire"
-					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-bold"
+					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-semibold"
 				>
 					<img src={hire} alt="apocomitamatma.pl" class="h-[1.5em]" />
 					<span>Korepetycje</span>
 				</Link>
 				<Link
 					url="#collab"
-					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-bold"
+					class="border-(--color-outline) border-3 flex items-center gap-2 rounded-2xl p-2 text-2xl font-semibold"
 				>
 					<img src={collab} alt="apocomitamatma.pl" class="h-[1.5em]" />
 					<span>Współpraca</span>

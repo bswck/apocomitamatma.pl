@@ -11,8 +11,8 @@
 	<div class="flex flex-col items-center justify-center gap-4">
 		<Link url="/showcase" newTab={true}>-> Zobacz przykładowe lokowania</Link>
 		<div class="flex flex-row gap-4">
-			<img src={NowaEra} alt="Nowa Era" class="w-46 h-auto object-cover" />
-			<img src={PWN} alt="PWN" class="w-46 h-auto object-contain" />
+			<img src={NowaEra} alt="Nowa Era" class="md:w-46 h-auto w-32 object-cover" />
+			<img src={PWN} alt="PWN" class="md:w-46 h-auto w-32 object-contain" />
 		</div>
 		<div class="flex flex-col gap-4 md:flex-row">
 			<img src={SWPS} alt="SWPS" class="w-46 h-auto object-contain" />

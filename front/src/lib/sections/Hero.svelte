@@ -51,6 +51,6 @@
 		</div>
 
 		<!-- brand.gif -->
-		<Sprite class="max-h-160 static h-full min-h-80 object-cover" which="delta" />
+		<Sprite class="max-h-160 static h-full object-cover" which="delta" />
 	</div>
 </div>

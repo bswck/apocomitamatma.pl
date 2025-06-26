@@ -45,8 +45,9 @@
 
 		<div class="flex flex-row items-center justify-evenly">
 			<div class="flex-3">Potrzebujesz korepetycji?</div>
-			<Link url="kontakt@apocomitamatma.pl" class="flex-4 bg-(--color-blue) p-2 font-semibold"
-				>Umów zajęcia</Link
+			<Link
+				url="mailto:kontakt@apocomitamatma.pl"
+				class="flex-4 bg-(--color-blue) p-2 font-semibold">Umów zajęcia</Link
 			>
 		</div>
 	</Card>
@@ -120,7 +121,7 @@
 
 		<div class="flex flex-row items-center justify-evenly">
 			<div class="flex-3">Potrzebujesz korepetycji?</div>
-			<Link url="kontakt@apocomitamatma.pl" class="flex-4 bg-(--color-red) p-2 font-semibold"
+			<Link url="mailto:kontakt@apocomitamatma.pl" class="flex-4 bg-(--color-red) p-2 font-semibold"
 				>Umów zajęcia
 			</Link>
 		</div>
